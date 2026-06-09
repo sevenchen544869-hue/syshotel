@@ -49,7 +49,7 @@ public class AppointController {
     @RequestMapping(value = "/Get", method = RequestMethod.POST)
     @SneakyThrows
     public AppointDto Get(@RequestBody AppointPagedInput input) {
-
+        System.out.println("666");
         return AppointService.Get(input);
     }
   
