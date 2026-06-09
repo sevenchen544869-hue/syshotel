@@ -51,6 +51,8 @@ public class AppointController {
     public AppointDto Get(@RequestBody AppointPagedInput input) {
         System.out.println("666");
         System.out.println("888");
+        System.out.println("666");
+        System.out.println("888");
         return AppointService.Get(input);
     }
   
