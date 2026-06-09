@@ -53,8 +53,8 @@ public class AppointController {
         System.out.println("888");
         System.out.println("666");
         System.out.println("888");
-        System.out.println("jald");
         System.out.println("akldjflsafj");
+
         return AppointService.Get(input);
     }
   
